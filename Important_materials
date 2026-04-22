@@ -9,6 +9,9 @@ for go -> go.mod
 mvn clean install -DskipTests  
 java -jar target/<serive-version created from above command>
 
+(Build Command for Python based Service)
+bash ./build_agents.sh  (Running the build_file.sh)
+
 
 
 Check for any changes in main branch, since we cloned->
