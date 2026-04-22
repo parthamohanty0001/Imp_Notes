@@ -1,1 +1,17 @@
+Task-1->
+
+we have pom.xml file which have version defined for all lib we are using
+for python -> verify dockerfiles and requirements.txt
+for go -> go.mod
+
+
+(Build and Run command for java based Service)
+mvn clean install -DskipTests  
+java -jar target/<serive-version created from above command>
+
+
+
+Check for any changes in main branch, since we cloned->
+git fetch origin
+git log HEAD..origin/develop --oneline
 
