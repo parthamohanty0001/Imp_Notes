@@ -48,3 +48,24 @@ Example:
 a1b2c3d Fix login bug
 b7c8d9e Add API endpoint
 👉 The short hash (like a1b2c3d) is usually enough.
+
+
+
+
+
+OCI CLI CONFIG FILE->
+[DEFAULT]
+fingerprint = ee:2f:cc:f3:0e:18:b5:61:f7:9c:99:48:00:88:47:b7
+key_file = /Users/parthasarathimohanty/.oci/sessions/DEFAULT/oci_api_key.pem
+tenancy = ocid1.tenancy.oc1..aaaaaaaapwdjm2omv7x6kvfeljbmt7mq3wqsxy2qom4rbfhuffbfw7lylmsq
+region = us-ashburn-1
+security_token_file = /Users/parthasarathimohanty/.oci/sessions/DEFAULT/token
+
+[oc1.ssh]
+fingerprint = 4a:7c:f4:40:6a:7a:f8:83:d0:67:eb:f7:7c:f0:05:ce
+key_file = /Users/parthasarathimohanty/.oci/sessions/oc1.ssh/oci_api_key.pem
+tenancy = ocid1.tenancy.oc1..aaaaaaaagkbzgg6lpzrf47xzy4rjoxg4de6ncfiq2rncmjiujvy2hjgxvziq
+region = us-phoenix-1
+security_token_file = /Users/parthasarathimohanty/.oci/sessions/oc1.ssh/token
+
+NOTE-WHILE LOOGING TO JH, USE BMC_OPERATOR_ACCESS AS TENANCY
